@@ -8,6 +8,14 @@
 
 #include "Game_local.h"
 
-void idStatusEffect::Spawn() {
+void idQuakeWareController::Spawn() {
 
+}
+
+void idQuakeWareController::AddNewStatusEffect(idStatusEffect* ptr) {
+	allStatusEffects[statusEffectsCount] = ptr;
+	gameLocal.Printf("QWDEBUG: Pointer value supplied: %x", ptr);
+	gameLocal.Printf("QWDEBUG: Pointer value just added: %x", allStatusEffects[statusEffectsCount]);
+	statusEffectsCount++;
+	gameLocal.Printf("QWDEBUG: New number of effects: %i\n", statusEffectsCount);		// TODO: delete the console printout lines
 }
