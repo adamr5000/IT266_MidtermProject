@@ -3959,6 +3959,12 @@ idPlayer::FireWeapon
 ===============
 */
 void idPlayer::FireWeapon( void ) {
+	
+	// TODO: add console printout for player's current location here
+	// (that way we can fire the blaster to figure out where we are, for adding triggers later)
+	common->Printf("Current location: %f, %f, %f\n", 1, 2, 3);
+
+
 	idMat3 axis;
 	idVec3 muzzle;
 
