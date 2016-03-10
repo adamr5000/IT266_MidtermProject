@@ -248,9 +248,11 @@
     <ClCompile Include="game\Player_Cheats.cpp" />
     <ClCompile Include="game\Projectile.cpp" />
     <ClCompile Include="game\Pvs.cpp" />
+    <ClCompile Include="game\QuakeWareController.cpp" />
     <ClCompile Include="game\SecurityCamera.cpp" />
     <ClCompile Include="game\Sound.cpp" />
     <ClCompile Include="game\SplineMover.cpp" />
+    <ClCompile Include="game\StatusEffect.cpp" />
     <ClCompile Include="game\Target.cpp" />
     <ClCompile Include="game\TramGate.cpp" />
     <ClCompile Include="game\Trigger.cpp" />
@@ -408,9 +410,11 @@
     <ClInclude Include="game\MultiplayerGame.h" />
     <ClInclude Include="game\Projectile.h" />
     <ClInclude Include="game\Pvs.h" />
+    <ClInclude Include="game\QuakeWareController.h" />
     <ClInclude Include="game\SecurityCamera.h" />
     <ClInclude Include="game\Sound.h" />
     <ClInclude Include="game\SplineMover.h" />
+    <ClInclude Include="game\StatusEffect.h" />
     <ClInclude Include="game\Target.h" />
     <ClInclude Include="game\TramGate.h" />
     <ClInclude Include="game\Trigger.h" />
