@@ -1264,8 +1264,6 @@ const int	CINEMATIC_SKIP_DELAY	= SEC2MS( 2.0f );
 #include "Sound.h"
 #include "SecurityCamera.h"
 #include "BrittleFracture.h"
-#include "StatusEffect.h"			// added for QuakeWare mod (amr48)
-#include "QuakeWareController.h"	// added for QuakeWare mod (amr48)
 
 // RAVEN BEGIN
 // nmckenzie: Reduce dependencies.
