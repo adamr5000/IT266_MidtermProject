@@ -18,6 +18,7 @@
     <ProjectGuid>{F2EF9123-B7C3-4F2F-A351-747B595BB534}</ProjectGuid>
     <RootNamespace>MPGame</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+	<TrackFileAccess>false</TrackFileAccess>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
