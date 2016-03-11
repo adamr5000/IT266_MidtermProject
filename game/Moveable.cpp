@@ -1157,7 +1157,6 @@ void idExplodingBarrel::Killed( idEntity *inflictor, idEntity *attacker, int dam
 
 	float f = spawnArgs.GetFloat( "burn" );
 	if ( f > 0.0f && state == NORMAL ) {
-		common->Printf("BARREL IS NOW BURNING!");		// added for QuakeWare amr48
 		state = BURNING;
 		PostEventSec( &EV_Explode, f );
 		StartSound( "snd_burn", SND_CHANNEL_ANY, 0, false, NULL );

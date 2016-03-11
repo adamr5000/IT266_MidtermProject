@@ -4849,7 +4849,6 @@ bool idGameLocal::SpawnEntityDef( const idDict &args, idEntity **ent, bool setDe
 	if ( g_keepEntityStats.GetBool() ) {
 		if ( idStr::Icmp( classname, "func_spawner" ) == 0 || 
 			 idStr::Icmp( classname, "func_spawner_enemy" ) == 0 ) {
-				 common->Printf("SPAWNER DETECTED!");	// added for QuakeWare amr48
 			// special case for spawners
 			for( int i = 1; ; i++ ) {
 				char		tempSpawn[128];

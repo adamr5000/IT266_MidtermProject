@@ -2,40 +2,40 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Game">
-      <UniqueIdentifier>{4a648190-5c95-4a17-af79-9eac51433374}</UniqueIdentifier>
+      <UniqueIdentifier>{f3ed5096-eb81-4c5c-ae25-ca06e47033dc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\AI">
-      <UniqueIdentifier>{99bf55e5-ccdc-4a42-b0dc-3c5aca28fc0c}</UniqueIdentifier>
+      <UniqueIdentifier>{e3bca479-3142-4833-a257-b1949d90541e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Anim">
-      <UniqueIdentifier>{1f502125-4f77-4d18-b091-f16f5cce952f}</UniqueIdentifier>
+      <UniqueIdentifier>{807c0598-e6c9-4115-9acc-74d7fef5ad5f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Client">
-      <UniqueIdentifier>{a0220991-0e31-4474-8ed4-c0ebd2e5b728}</UniqueIdentifier>
+      <UniqueIdentifier>{6e9c91c4-67a3-4ef5-b15a-33861a546552}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\GameSys">
-      <UniqueIdentifier>{98cbda9d-544c-494b-bc68-b8a04e440c3d}</UniqueIdentifier>
+      <UniqueIdentifier>{45a28529-5593-4ae2-866c-6196f9263833}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Physics">
-      <UniqueIdentifier>{0693ffa3-c5ff-4ef2-910e-6cdedf29c552}</UniqueIdentifier>
+      <UniqueIdentifier>{0ad0d090-141f-4dd2-b627-b96a953a5eb2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Player">
-      <UniqueIdentifier>{01408b45-685c-468a-8f2c-7692f4b87141}</UniqueIdentifier>
+      <UniqueIdentifier>{e8c1f5b9-e044-478d-913f-fccfd3940cbd}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script">
-      <UniqueIdentifier>{aea34915-63f7-4c4a-8ab8-af616e036949}</UniqueIdentifier>
+      <UniqueIdentifier>{5180c1f6-436c-414f-8425-3687e2b20ee6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Vehicle">
-      <UniqueIdentifier>{fbf105de-2930-4474-ba07-9478a4cc2d91}</UniqueIdentifier>
+      <UniqueIdentifier>{7e00344b-08cc-4a37-b3a0-56a96ed9bb16}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Weapon">
-      <UniqueIdentifier>{fe391d52-3f28-48ba-ba2a-5117deda4e7e}</UniqueIdentifier>
+      <UniqueIdentifier>{99f4d4ae-70e0-4327-aeb6-fed5bb18c0c1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\MP">
-      <UniqueIdentifier>{3c805191-dc9e-40bc-83f1-3fc51c646419}</UniqueIdentifier>
+      <UniqueIdentifier>{33eea194-1384-4c81-98d3-7245a5dc9191}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\MP\Stats">
-      <UniqueIdentifier>{45796cb6-4a4a-44ef-afb3-c6939f2a8ada}</UniqueIdentifier>
+      <UniqueIdentifier>{ad58557d-01a5-4eda-a730-e6f38c08f789}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -516,9 +516,6 @@
     <ClCompile Include="game\mp\stats\StatWindow.cpp">
       <Filter>Game\MP\Stats</Filter>
     </ClCompile>
-    <ClCompile Include="game\QW_Controller.cpp" />
-    <ClCompile Include="game\QW_Microgame.cpp" />
-    <ClCompile Include="game\QW_StatusEffect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\Actor.h">
@@ -833,9 +830,6 @@
     <ClInclude Include="game\mp\stats\StatWindow.h">
       <Filter>Game\MP\Stats</Filter>
     </ClInclude>
-    <ClInclude Include="game\QW_StatusEffect.h" />
-    <ClInclude Include="game\QW_Controller.h" />
-    <ClInclude Include="game\QW_Microgame.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="game\Game.def" />
