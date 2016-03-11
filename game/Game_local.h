@@ -102,9 +102,9 @@ void gameError( const char *fmt, ... );
 
 
 // Following includes are for QuakeWare mod (amr48)
-#include "quakeware\Microgame.h"
-#include "quakeware\QuakeWareController.h"
-#include "quakeware\StatusEffect.h"
+#include "QW_Microgame.h"
+#include "QW_Controller.h"
+#include "QW_StatusEffect.h"
 // End of QuakeWare includes
 
 

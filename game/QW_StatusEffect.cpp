@@ -4,10 +4,10 @@
   In QuakeWare, these are applied and removed after the end of a microgame instance.
 */
 
-#include "../../idlib/precompiled.h"
+#include "../idlib/precompiled.h"
 #pragma hdrstop
 
-#include "../Game_local.h"
+#include "Game_local.h"
 
 void StatusEffect::Spawn() {
 

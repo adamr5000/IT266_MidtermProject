@@ -3,6 +3,8 @@
 #ifndef __GAME_QUAKEWARECONTROLLER_H__
 #define __GAME_QUAKEWARECONTROLLER_H__
 
+#include "Entity.h"
+
 class QuakeWareController : public idEntity {
 public:
 
@@ -12,7 +14,7 @@ public:
 	QuakeWareController() {
 		this->statusEffectsCount = 0;
 	}
-
+	/*
 	void					AddNewStatusEffect(StatusEffect *ptr);
 
 	void					Spawn( void );
@@ -21,7 +23,7 @@ public:
 	void					Restore( idRestoreGame *savefile );
 
 	virtual void			Think( void );
-
+	*/
 private:
 
 	// The array stores pointers to every status effect object that can be instantiated.
