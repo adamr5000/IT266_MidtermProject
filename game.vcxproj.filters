@@ -516,6 +516,9 @@
     <ClCompile Include="game\mp\stats\StatWindow.cpp">
       <Filter>Game\MP\Stats</Filter>
     </ClCompile>
+    <ClCompile Include="game\quakeware\Microgame.cpp" />
+    <ClCompile Include="game\quakeware\QuakeWareController.cpp" />
+    <ClCompile Include="game\quakeware\StatusEffect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\Actor.h">
@@ -830,6 +833,9 @@
     <ClInclude Include="game\mp\stats\StatWindow.h">
       <Filter>Game\MP\Stats</Filter>
     </ClInclude>
+    <ClInclude Include="game\quakeware\QuakeWareController.h" />
+    <ClInclude Include="game\quakeware\StatusEffect.h" />
+    <ClInclude Include="game\quakeware\Microgame.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="game\Game.def" />

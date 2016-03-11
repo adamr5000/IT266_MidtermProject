@@ -248,6 +248,9 @@
     <ClCompile Include="game\Player_Cheats.cpp" />
     <ClCompile Include="game\Projectile.cpp" />
     <ClCompile Include="game\Pvs.cpp" />
+    <ClCompile Include="game\quakeware\Microgame.cpp" />
+    <ClCompile Include="game\quakeware\QuakeWareController.cpp" />
+    <ClCompile Include="game\quakeware\StatusEffect.cpp" />
     <ClCompile Include="game\SecurityCamera.cpp" />
     <ClCompile Include="game\Sound.cpp" />
     <ClCompile Include="game\SplineMover.cpp" />
@@ -408,6 +411,9 @@
     <ClInclude Include="game\MultiplayerGame.h" />
     <ClInclude Include="game\Projectile.h" />
     <ClInclude Include="game\Pvs.h" />
+    <ClInclude Include="game\quakeware\Microgame.h" />
+    <ClInclude Include="game\quakeware\QuakeWareController.h" />
+    <ClInclude Include="game\quakeware\StatusEffect.h" />
     <ClInclude Include="game\SecurityCamera.h" />
     <ClInclude Include="game\Sound.h" />
     <ClInclude Include="game\SplineMover.h" />

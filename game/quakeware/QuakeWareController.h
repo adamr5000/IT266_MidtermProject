@@ -3,17 +3,17 @@
 #ifndef __GAME_QUAKEWARECONTROLLER_H__
 #define __GAME_QUAKEWARECONTROLLER_H__
 
-class idQuakeWareController : public idEntity {
+class QuakeWareController : public idEntity {
 public:
 
 	//enum StatusEffectType { BUFF, DEBUFF };
 	//enum TriggerTiming { BEFORE_INSTANCE, START_OF_INSTANCE, AFTER_INSTANCE, AFTER_INSTANCE_TIMED };
 
-	idQuakeWareController() {
+	QuakeWareController() {
 		this->statusEffectsCount = 0;
 	}
 
-	void					AddNewStatusEffect(idStatusEffect *ptr);
+	void					AddNewStatusEffect(StatusEffect *ptr);
 
 	void					Spawn( void );
 
@@ -28,7 +28,7 @@ private:
 	// The counter starts at 0 and increments every time a status effect is added.
 	static const int MAX_TYPES_OF_STATUS_EFFECTS = 20;
 	static int statusEffectsCount;
-	static idStatusEffect *allStatusEffects[MAX_TYPES_OF_STATUS_EFFECTS];
+	static StatusEffect allStatusEffects[MAX_TYPES_OF_STATUS_EFFECTS];
 
 	
 };

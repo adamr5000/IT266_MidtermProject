@@ -100,6 +100,14 @@ class idLocationEntity;
 
 void gameError( const char *fmt, ... );
 
+
+// Following includes are for QuakeWare mod (amr48)
+#include "quakeware\Microgame.h"
+#include "quakeware\QuakeWareController.h"
+#include "quakeware\StatusEffect.h"
+// End of QuakeWare includes
+
+
 #include "gamesys/Event.h"
 // RAVEN BEGIN
 // bdube: added

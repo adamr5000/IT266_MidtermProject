@@ -3,13 +3,13 @@
 #ifndef __GAME_STATUSEFFECT_H__
 #define __GAME_STATUSEFFECT_H__
 
-class idStatusEffect : public idEntity {
+class StatusEffect : public idEntity {
 public:
 
 	enum StatusEffectType { BUFF, DEBUFF };
 	enum TriggerTiming { BEFORE_INSTANCE, START_OF_INSTANCE, AFTER_INSTANCE, AFTER_INSTANCE_TIMED };
 
-	idStatusEffect(int se_id, StatusEffectType se_type, TriggerTiming s_timing = AFTER_INSTANCE, TriggerTiming e_timing = BEFORE_INSTANCE) {
+	StatusEffect(int se_id, StatusEffectType se_type, TriggerTiming s_timing = AFTER_INSTANCE, TriggerTiming e_timing = BEFORE_INSTANCE) {
 		id = se_id;
 		type = se_type;
 		startTiming = s_timing;
